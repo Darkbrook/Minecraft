@@ -1,0 +1,16 @@
+[
+{
+  "modid": "prospector",
+  "name": "Prospector",
+  "description": "",
+  "version": "indev",
+  "mcversion": "1.8.9",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Darkbrook"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

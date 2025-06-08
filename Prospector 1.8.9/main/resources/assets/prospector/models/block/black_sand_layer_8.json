@@ -1,0 +1,21 @@
+{
+    "textures":
+    {
+        "particle": "prospector:blocks/black_sand",
+        "texture": "prospector:blocks/black_sand"
+    },
+    "elements":
+    [{
+		"from": [0, 0, 0],
+		"to": [16, 8, 16],
+		"faces":
+		{
+		    "north": {"uv": [0, 0, 16, 8], "texture": "#texture"},
+		    "east":  {"uv": [0, 0, 16, 8], "texture": "#texture"},
+		    "south": {"uv": [0, 0, 16, 8], "texture": "#texture"},
+		    "west":  {"uv": [0, 0, 16, 8], "texture": "#texture"},
+		    "up":    {"uv": [0, 0, 16, 16], "texture": "#texture"},
+		    "down":  {"uv": [0, 0, 16, 16], "texture": "#texture"}
+		}
+	}]
+}

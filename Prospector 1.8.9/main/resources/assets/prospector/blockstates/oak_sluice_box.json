@@ -1,0 +1,72 @@
+{
+	"forge_marker": 1,
+	"defaults":
+	{
+		"custom": {"flip-v": true},
+		"textures": {"#wood": "blocks/planks_oak"},
+		"transform":
+		{
+			"thirdperson":
+			{
+				"rotation": [-0.3727586, -0.1134411, 0.9139547, 0.1134411],
+				"translation": [0, 0.09375, -0.171875],
+				"scale": [0.375, 0.375, 0.375]
+			},
+			"firstperson":
+			{
+				"rotation": [0.1387165, -0.1981076, 0.1387165, 0.9603483],
+			    "translation": [0, 0.22, 0]
+			},
+			"gui":
+			{
+			    "rotation": [0, 0.6427876, 0, -0.7660444],
+			    "translation": [0, 0.13, 0],
+			    "scale": [1.1, 1.1, 1.1]
+			},
+			"fixed":
+			{
+				"rotation": [0, 0.7071068, 0, -0.7071068]
+			}
+		}
+	},
+	"variants":
+	{
+		"inventory": [{"model": "prospector:sluice_box_bottom.obj"}],
+		"facing":
+		{
+			"north": {},
+			"east":  {"y":  90},
+			"south": {"y": 180},
+			"west":  {"y": 270}
+		},
+		"half_running":
+		{
+			"bottom_false": {"model": "prospector:sluice_box_bottom.obj"},
+			"bottom_true": 
+			{
+				"model": "forge:multi-layer",
+				"custom":
+				{
+					"base": "prospector:oak_sluice_box#bottom",
+					"Solid": "prospector:oak_sluice_box#bottom",
+					"Translucent": "prospector:oak_sluice_box#bottom_water"
+				}
+			},
+			"top_false": {"model": "prospector:sluice_box_top.obj"},
+			"top_true": 
+			{
+				"model": "forge:multi-layer",
+				"custom":
+				{
+					"base": "prospector:oak_sluice_box#top",
+					"Solid": "prospector:oak_sluice_box#top",
+					"Translucent": "prospector:oak_sluice_box#top_water"
+				}
+			}
+		},
+		"bottom": [{"model": "prospector:sluice_box_bottom.obj"}],
+		"bottom_water": [{"model": "prospector:sluice_box_bottom_water.obj"}],
+		"top": [{"model": "prospector:sluice_box_top.obj"}],
+		"top_water": [{"model": "prospector:sluice_box_top_water.obj"}]
+	}
+}

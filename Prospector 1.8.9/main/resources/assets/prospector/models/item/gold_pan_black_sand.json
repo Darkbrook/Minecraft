@@ -1,0 +1,4 @@
+{
+    "parent": "prospector:item/gold_pan",
+    "textures": {"layer1": "prospector:items/gold_pan_black_sand_overlay"}
+}

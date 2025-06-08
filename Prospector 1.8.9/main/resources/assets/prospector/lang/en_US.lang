@@ -1,0 +1,20 @@
+itemGroup.prospector=Prospector
+
+container.sluice_box=Sluice Box
+
+item.gold_pan.name=Gold Pan
+item.gold_pan_black_sand.name=Gold Pan
+item.gold_pan_pyrite_dust.name=Gold Pan
+item.pyrite_dust.name=Pyrite Dust
+item.gold_flake.name=Gold Flake
+item.gold_chunk.name=Gold Chunk
+
+tile.black_sand.name=Black Sand
+tile.black_sand_layer.name=Black Sand Layer
+tile.pyrite_ore.name=Pyrite Ore
+tile.oak_sluice_box.name=Oak Wood Sluice Box
+tile.spruce_sluice_box.name=Spruce Wood Sluice Box
+tile.birch_sluice_box.name=Birch Wood Sluice Box
+tile.jungle_sluice_box.name=Jungle Wood Sluice Box
+tile.acacia_sluice_box.name=Acacia Wood Sluice Box
+tile.dark_oak_sluice_box.name=Dark Oak Wood Sluice Box

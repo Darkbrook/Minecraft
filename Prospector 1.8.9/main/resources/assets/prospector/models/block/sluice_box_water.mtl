@@ -1,0 +1,3 @@
+newmtl water
+map_Kd blocks/water_flow
+newmtl none
