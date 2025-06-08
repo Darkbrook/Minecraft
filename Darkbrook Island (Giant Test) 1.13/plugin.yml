@@ -1,0 +1,27 @@
+ main: com.darkbrook.island.DarkbrookIsland
+ api-version: 1.13
+ name: DarkbrookIsland
+ version: 0.9
+ description: Darkbrook Island essentials plugin.
+ author: Darkbrook (Wizzardcraftrock)
+ commands:
+  bind:
+   description: Binds the players main hand item to a locally specified command.
+  bp:
+   description: Creates, manages, and loads blueprints.
+  chatcolor:
+   description: Opens a chat color dye inventory.
+  crash:
+   description: Crashes a specified player's client.
+  gamerule:
+   description: Opens a gui that displays world gamerule information.
+  gm:
+   description: A simplified gamemode command.
+  gui:
+   description: Used to open guis that do not have code implementation.
+  identify:
+   description: Displays an item's spigot data values.
+  see:
+   description: Toggles a night vision effect for improved vision.
+  world:
+   description: Opens a gui that displays server world information.
