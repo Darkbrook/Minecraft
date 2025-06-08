@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "kingdoms",
+  "version": "${version}",
+  "name": "Kingdoms",
+  "description": "Kingdoms MMO",
+  "authors": [
+    "Darkbrook"
+  ],
+  "license": "All rights reserved.",
+  "entrypoints": {
+    "server": [
+      "com.darkbrook.kingdoms.KingdomsServer"
+    ]
+  },
+  "mixins": [
+    "kingdoms.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric-api": "*",
+    "minecraft": "~1.19.3",
+    "java": ">=17"
+  }
+}

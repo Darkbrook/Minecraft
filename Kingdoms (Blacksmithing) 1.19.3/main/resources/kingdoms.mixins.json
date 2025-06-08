@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.darkbrook.kingdoms.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  	"AnvilBlockMixin",
+  	"ArmorStandEntityMixin",
+  	"CauldronBlockMixin",
+  	"GameRulesTypeAccessor",
+  	"GameRulesTypeMixin",
+  	"ItemStackMixin",
+  	"NbtCompoundMixin",
+  	"NbtListMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
