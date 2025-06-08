@@ -1,0 +1,24 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"compatibilityLevel": "JAVA_8",
+	"package": "dev.darkbrook.wildfire.mixin",
+	"refmap": "mixins.wildfire.refmap.json",
+	"client": [
+		"command.TabCompleterMixin",
+		"commandblock.AbstractClientPlayerInvoker",
+		"commandblock.EntityPlayerSPMixin",
+		"effect.GuiIngameMixin",
+		"fullbright.EntityPlayerSPMixin",
+		"fullbright.EntityRendererMixin",
+		"label.EntityRendererMixin",
+		"label.RenderMixin",
+		"scoreboard.GuiIngameMixin",
+		"stack.ItemMixin",
+		"title.GuiBossOverlayAccessor",
+		"title.GuiIngameForgeMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

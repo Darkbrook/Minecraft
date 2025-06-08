@@ -1,0 +1,11 @@
+[
+	{
+	  "modid": "wildfire",
+	  "name": "Wildfire",
+	  "description": "Command block previews, fullbright, UI adjustments, and configurable stack size limits.",
+	  "version": "${version}",
+	  "mcversion": "1.12.2",
+	  "authorList": ["Darkbrook"],
+	  "logoFile": "icon.png"
+	}
+]

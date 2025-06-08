@@ -1,0 +1,33 @@
+
+language.name=English
+language.region=United States
+language.code=en_us
+
+key.wildfire=Wildfire
+key.wildfire.fullbright=Fullbright
+
+SKY_LIGHT=Sky Light
+NIGHT_VISION=Night Vision
+TOP=Top
+CENTER=Center
+
+option.wildfire=Wildfire
+option.wildfire.commandBlock=Command Block
+option.wildfire.commandBlock.customInterface=Custom Interface
+option.wildfire.commandBlock.previewCommand=Preview Command
+option.wildfire.commandBlock.softWrapLimit=Soft Wrap Limit
+option.wildfire.commandBlock.softWrapBuffer=Soft Wrap Buffer
+option.wildfire.commandBlock.hardWrapLimit=Hard Wrap Limit
+option.wildfire.fullbright=Fullbright
+option.wildfire.fullbright.enabled=Enabled
+option.wildfire.fullbright.mode=Mode
+option.wildfire.fullbright.minSkyLight=Min Sky Light
+option.wildfire.fullbright.maxSkyLight=Max Sky Light
+option.wildfire.hud=Hud
+option.wildfire.hud.titlePosition=Title Position
+option.wildfire.hud.titleScale=Title Scale
+option.wildfire.hud.hideStatusEffects=Hide Status Effects
+option.wildfire.hud.hideScoreboardPoints=Hide Scoreboard Points
+option.wildfire.misc=Misc
+option.wildfire.misc.labelScale=Label Scale
+option.wildfire.misc.customStackSizes=Custom Stack Sizes
