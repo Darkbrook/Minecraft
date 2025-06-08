@@ -1,0 +1,48 @@
+ name: DarkbrookIsland
+ version: 1.0.0
+ description: This is essential for the DBI server.
+ author: Darkbrook (Wizzardcraftrock) 
+ main: com.darkbrook.island.DarkbrookIsland
+ commands:
+  buildvoxel:
+   description: VoxelSniper simplifier.
+  ec:
+   description: Opens elemental checkers.
+  blueprint:
+   description: Creates a blueprint.
+  copy:
+   description: Copies your selection.
+  paste:
+   description: Pastes your selection.
+  stop:
+   description: Stops the server.
+  instancebattle:
+   description: Instance battle debug command.
+  giveskull:
+   description: Gives the player a custom skull
+  maze:
+   description: Generates a maze at your feet.
+  spawnnpc:
+   description: Spawns a named npc.
+  removenpc:
+   description: Removes the closest locally loaded npc.
+  menu:
+   description: Opens the admin menu.
+  bind:
+   description: Binds a command to an item.
+  kit:
+   description: Allows the use and creation of kits.
+  setspawn:
+   description: Sets the world spawn.
+  spawn:
+   description: Teleports you to spawn.
+  circles:
+   description: Makes you go in circles.
+  see:
+   description: Toggles the night vision effect for the player.
+  world:
+   description: Teleports you to the specified world.
+  pulse:
+   description: Wireless redstone.
+  set:
+   description: Sets an areas blocks.
