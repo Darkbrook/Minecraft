@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "ages",
+	"version": "${version}",
+	"name": "Ages",
+	"description": "Lock item and block interactions behind ages of progression.",
+	"authors": [
+		"Darkbrook"
+	],
+	"license": "All rights reserved.",
+	"environment": "server",
+	"entrypoints": {
+		"main": [
+			"dev.darkbrook.ages.Ages"
+		]
+	},
+	"mixins": [
+		"ages.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
