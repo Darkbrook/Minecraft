@@ -1,0 +1,50 @@
+main: com.darkbrook.island.DarkbrookIsland
+name: DarkbrookIsland
+version: 1.2
+description: The core plugin responsible for maintaining Darkbrook Island and its features.
+api-version: 1.14
+author: Darkbrook
+commands:
+ claim:
+  description: Allows the user to claim a chunk.
+  permission: dbi.claim
+  permission-message: You do not have permission to perform this command.
+  usage: "Usage: /claim <name>"
+ claimadd:
+  description: Allows the user to add a player to a territory claim.
+  permission: dbi.claim
+  permission-message: You do not have permission to perform this command.
+  usage: "Usage: /claimadd <player>"
+ claimremove:
+  description: Allows the user to remove a player from a territory claim.
+  permission: dbi.claim
+  permission-message: You do not have permission to perform this command.
+  usage: "Usage: /claimremove <player>"
+ debug:
+  description: Allows the user to execute temporary debug code.
+  permission: dbi.debug
+  permission-message: You do not have permission to perform this command.
+  usage: "Usage: /debug"
+ playtime:
+  description: Displays the users playtime.
+  usage: "Usage: /playtime"
+ unclaim:
+  description: Allows the user to unclaim a chunk.
+  permission: dbi.claim
+  permission-message: You do not have permission to perform this command.
+  usage: "Usage: /unclaim"
+ world:
+  description: Allows the user to teleport to a specified world.
+  permission: dbi.world
+  permission-message: You do not have permission to perform this command.
+  usage: "Usage: /world <name>"
+permissions:
+ dbi.claim:
+  description: The claim command permission.
+  default: op
+ dbi.debug:
+  description: The debug command permission.
+  default: op
+ dbi.world:
+  description: The world command permission.
+  default: op
