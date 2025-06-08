@@ -1,0 +1,32 @@
+ name: DarkbrookIsland
+ version: 0.5.0
+ description: Darkbrook Island Essentials.
+ author: Darkbrook (Wizzardcraftrock) 
+ main: com.darkbrook.darkbrookisland.DarkbrookIsland
+ commands:
+  see:
+   description: Allows you to toggle a night vision effect for improved vision.
+  world:
+   description: Opens the world gui which allows you to teleport to different worlds.
+  kit:
+   description: Allows you to create, remove, and assign different kits.
+  npc:
+   description: Allows you to spawn and remove local npcs.
+  bind:
+   description: Allows you to bind a specified command to the item in your main hand.
+  stop:
+   description: Stops the server, along with kicking all players with a pre-set formatted message.
+  bp:
+   description: Allows you to create blueprints and use these blueprints for creations that involve animation.
+  maze:
+   description: Creates a randomized maze with specified dimensions; restricted to command block usage only.
+  ec:
+   description: Opens an elemental checkers game with a specified player; this game is similar to checkers, but involes an all king game with special stats.
+  realtime:
+   description: Toggles between a 'real time to Minecraft time' conversion and 'default Minecraft time.'
+  project:
+   description: Allows you to create projections and use these projections for creations that invole animation; almost an exact copy of Shotbow's /project.
+  entity:
+   description: Allows you to spawn and track the state of entities; almost an exact copy of Shotbow's /entity.
+  minez:
+   description: Implemented for the sake of brevity when needing to modify Minez related items or rule sets.
